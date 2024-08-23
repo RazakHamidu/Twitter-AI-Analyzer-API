@@ -136,4 +136,5 @@ Forka il repository.
 2. Effettua le modifiche e commit: git commit -am 'Aggiungi nuova feature'
 3. Push al tuo fork: git push origin feature/nome-feature
 4. Crea una pull request.
-
+## Contatti
+Per qualsiasi domanda o supporto, contatta Linkedln.
