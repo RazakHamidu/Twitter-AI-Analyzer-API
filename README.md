@@ -128,5 +128,12 @@ In questa sezione:
 ## Licenza
 Questo progetto è distribuito sotto la Licenza MIT. Consulta il file LICENSE per ulteriori dettagli.
 
-### Testo della Licenza MIT
+## Contribuire
+Se desideri contribuire al progetto, segui questi passaggi:
+
+Forka il repository.
+1. Crea un branch per la tua feature o correzione: git checkout -b feature/nome-feature
+2. Effettua le modifiche e commit: git commit -am 'Aggiungi nuova feature'
+3. Push al tuo fork: git push origin feature/nome-feature
+4. Crea una pull request.
 
