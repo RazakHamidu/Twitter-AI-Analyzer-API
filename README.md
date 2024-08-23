@@ -126,8 +126,7 @@ In questa sezione:
 - **Diagramma di Sequenza:** Mostra come i dati vengono elaborati attraverso il sistema, evidenziando le interazioni tra i diversi componenti.
 - **Diagramma di Sistema:** Illustra l'architettura complessiva, mostrando come i componenti del sistema interagiscono tra loro.
 ## Licenza
-
-Questo progetto è distribuito sotto la Licenza MIT. La Licenza MIT è una licenza permissiva che consente a chiunque di utilizzare, copiare, modificare, fondere, pubblicare, distribuire, sublicenziare e vendere copie del Software, a condizione che siano inclusi nel software originale tutti i copyright e le dichiarazioni di permesso. Il software è fornito "così com'è", senza garanzie di alcun tipo, espresse o implicite, inclusi, ma non limitati a, le garanzie implicite di commerciabilità, idoneità per uno scopo particolare e non violazione.
+Questo progetto è distribuito sotto la Licenza MIT. Consulta il file LICENSE per ulteriori dettagli.
 
 ### Testo della Licenza MIT
 
