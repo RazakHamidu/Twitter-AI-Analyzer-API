@@ -1,10 +1,11 @@
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 from dotenv import load_dotenv, find_dotenv
-
+from flask import Flask, request, jsonify
 load_dotenv(find_dotenv())
 
 
+app = Flask(__name__)
 
 
 model = ChatGoogleGenerativeAI(
@@ -12,10 +13,13 @@ model = ChatGoogleGenerativeAI(
 )
 
 
+
+@app.route("/TAIAPI", methods=['POST'])
 def main():
     tweet_example = "🌞 Buongiorno a tutti! Oggi è una giornata perfetta per una passeggiata all'aria aperta. 🏞️ Non dimenticate di prendere un po' di tempo per voi stessi e godervi la natura! 🌳✨ #Buongiorno #Relax #VivereBene"
-    tweet_prompt = "🚀 Pronti a conquistare la giornata? Ogni sfida è un'opportunità per brillare! 🌟 #Motivazione #NuovoInizio #Inspiration"
-
+    tweet_prompt = request.json.get("tweet_prompt")
+    if not tweet_prompt:
+        return jsonify({"error": "Tweet is required"}), 400
 
     viralità = [
         SystemMessage(content="Agisci come un Twitter AI Analyzer. Hai 10 anni di esperienza nel capire e valutare la possibilità che vada virale un Twitter. Dammi una valutazione di viralità da 1 a 10. Dammi solo il numero di valutazione non rispondere con altri informazioni. Ecco il mio tweet"),
@@ -45,3 +49,12 @@ def main():
     ]
 
     improve_r = model.invoke(improve).content
+
+    return jsonify({
+        "viralità":viralità_r,
+        "feedback":feedback_r,
+        "improve":improve_r
+        }), 201
+
+if __name__ == "__main__":
+    app.run(debug=True)
