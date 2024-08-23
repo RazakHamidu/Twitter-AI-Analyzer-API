@@ -1,0 +1,15 @@
+MIT License
+
+Copyright (c) 2024 [Il Tuo Nome o Nome dell'Organizzazione]
+
+Con la presente si concede gratuitamente a chiunque ottenga una copia del presente software e dei file di documentazione associati (il "Software"), di trattare nel Software senza restrizioni, inclusi senza limitazioni i diritti di usare, copiare, modificare, fondere, pubblicare, distribuire, sublicenziare e/o vendere copie del Software, e di permettere alle persone a cui il Software è fornito di fare lo stesso, a condizione che le seguenti condizioni siano rispettate:
+
+1. La sopraindicata avvertenza di copyright e questa dichiarazione di permesso devono essere incluse in tutte le copie o parti sostanziali del Software.
+
+2. Il Software è fornito "così com'è", senza garanzie di alcun tipo, espresse o implicite, inclusi ma non limitati a, le garanzie implicite di commerciabilità, idoneità per uno scopo particolare e non violazione. In nessun caso gli autori o i detentori dei diritti d'autore saranno responsabili per qualsiasi reclamo, danno o altra responsabilità, sia in un'azione di contratto, torto o altro, derivante da, fuori o in connessione con il Software o l'uso o altri affari nel Software.
+
+### Dettagli della Licenza
+
+- **Autore**: Razak Hamidu
+- **Data di Pubblicazione**: 2024
+- **Licenza**: MIT License
